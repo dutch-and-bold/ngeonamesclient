@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFrameworks>netstandard2.0</TargetFrameworks>
+        <PackageId>DutchAndBold.NGeoNamesClient</PackageId>
+        <AssemblyName>DutchAndBold.NGeoNamesClient</AssemblyName>
+        <Authors>Dutch and Bold</Authors>
+        <LangVersion>latest</LangVersion>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <RootNamespace>DutchAndBold.NGeoNamesClient</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Refit" Version="4.7.51" />
+    </ItemGroup>
+
+</Project>

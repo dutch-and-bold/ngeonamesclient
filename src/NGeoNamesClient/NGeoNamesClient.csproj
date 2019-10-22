@@ -6,6 +6,9 @@
         <AssemblyName>DutchAndBold.NGeoNamesClient</AssemblyName>
         <Authors>Dutch and Bold</Authors>
         <LangVersion>latest</LangVersion>
+        <Description>A tiny library that wraps the GeoNames webservices api using Refit.</Description>
+        <PackageProjectUrl>https://github.com/dutch-and-bold/ngeonamesclient</PackageProjectUrl>
+        <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     </PropertyGroup>
 
     <PropertyGroup>
@@ -14,6 +17,10 @@
 
     <ItemGroup>
       <PackageReference Include="Refit" Version="4.7.51" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="LICENSE.txt" Pack="true" PackagePath="$(PackageLicenseFile)"/>
     </ItemGroup>
 
 </Project>
